@@ -1,41 +1,36 @@
 body {
-	/*background-image: url("../images/seigaiha.png");*/
-	margin: 0px;
-	padding: 0px;
+	background-image: url("../images/superman.jpg");
+	background-position: center;
 }
 
-.jumbotron {
-	background-color: orange;
-	color: white;
+.crystals{
+	display: flex;
+	justify-content: space-around;
+	
+	align-items: center;
 }
 
-.target-number {
-	font-size: 30px;
-	background-color: #F8CF9C;
-	border-style: solid;
-	border-color: #ddd;
-	border-width: 4px;
+.crystal {
+	border: 1px solid green;
+	height: 200px;
+	width: 200px;
 }
 
-.win-lose-counter {
-	background-color: #9CE7F8;
-	border-style: solid;
-	border-color: #ddd;
-	border-width: 4px;
+.drew-nav{
+	background-color: blue;
+	color: red;
+	text-align: center;
 }
 
-.crystal-images {
-	margin-top: 10px;
-	margin-bottom: 10px;
+.drew-text{
+	color: red;
+	text-align: center;
 }
 
-.total-score {
-	color: white;
-	background-color: #4aaaa5;
+.container {
+	text-align: center;
 }
 
-.score-number {
-	color: white;
-	background-color: #4aaaa5;
-	font-size: 30px;
+#result {
+	font-weight: bold;
 }
